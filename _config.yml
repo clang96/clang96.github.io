@@ -1,13 +1,15 @@
-title: YAPMAXXING
-email: charlotte.lang@proton.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Bzz
-minimal_mistakes_skin: dark
-search: true
+# Site settings
+locale: "en-US"
+title: "YAPMAXXING"
+name: "Charlotte Lang"
+description: "Potentially coherent ramblings"
+url: "https://clang96.github.io"
+copyright: "Charlotte Lang"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "contrast"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -38,35 +40,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
   name   : "Charlotte Lang"
   avatar : "/assets/images/bio-photo.png"
   bio    : "Puttin the fries in the bag"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
