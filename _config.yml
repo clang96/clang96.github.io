@@ -1,11 +1,9 @@
 title: YAPMAXXING
 email: charlotte.lang@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Bzz.
-github_username: clang96
+  Bzz
 minimal_mistakes_skin: dark
 search: true
-
 
 # Build settings
 markdown: kramdown
@@ -14,7 +12,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -41,9 +39,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Charlotte Lang"
+  name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Puttin the fries in the bag"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 defaults:
   # _posts
