@@ -5,6 +5,7 @@ name: "Charlotte Lang"
 description: "Potentially coherent ramblings"
 url: "https://clang96.github.io"
 copyright: "Charlotte Lang"
+enable_copy_code_button: true
 
 # Build settings
 markdown: kramdown
@@ -45,6 +46,7 @@ author:
   name   : "Charlotte Lang"
   avatar : "/assets/images/bio-photo.png"
   bio    : "Puttin the fries in the bag"
+  location: "The Wired"
 
 defaults:
   # _posts
@@ -54,9 +56,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
+      read_time: false
+      show_date: true
+      date_format: "%Y-%m-%d"
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
